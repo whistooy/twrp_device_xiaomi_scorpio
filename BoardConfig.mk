@@ -53,7 +53,7 @@ TARGET_BOARD_PLATFORM := msm8996
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno530
 
 # Encryption
-TARGET_HW_DISK_ENCRYPTION := true
+TW_INCLUDE_FBE := true
 
 # Logcat
 TARGET_USES_LOGD := true
