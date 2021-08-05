@@ -89,3 +89,4 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_MAX_BRIGHTNESS := 4095
 TW_NO_USB_STORAGE := true
 TW_THEME := portrait_hdpi
+TW_USE_TOOLBOX := true
