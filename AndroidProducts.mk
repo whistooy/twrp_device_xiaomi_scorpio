@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_lithium.mk
+    $(LOCAL_DIR)/twrp_lithium.mk
