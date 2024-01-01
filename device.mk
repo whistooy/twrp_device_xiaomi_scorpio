@@ -1,3 +1,10 @@
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
+# Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Qcom common decryption
 PRODUCT_PACKAGES += \
     qcom_decrypt\
