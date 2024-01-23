@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := lithium
+PRODUCT_RELEASE_NAME := scorpio
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -23,15 +23,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Inherit from this product for devices that support only 64-bit apps using:
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 
-# Inherit from lithium device
-$(call inherit-product, device/xiaomi/lithium/device.mk)
+# Inherit from scorpio device
+$(call inherit-product, device/xiaomi/scorpio/device.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := lithium
-PRODUCT_NAME := twrp_lithium
+PRODUCT_DEVICE := scorpio
+PRODUCT_NAME := twrp_scorpio
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI MIX
+PRODUCT_MODEL := MI Note 2
 PRODUCT_MANUFACTURER := Xiaomi
